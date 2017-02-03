@@ -1,5 +1,13 @@
 # All great things combined together
 
+###For Live website Demo please visite : [Click me](https://node-mongo-graphql.herokuapp.com/)
+
+###For Live GraphQL Demo please visite : [Click me](https://node-mongo-graphql.herokuapp.com/api)
+
+Simple GraphQL
+
+query { Products { id, title } }
+
 ## Steps to Runing locally
     1) npm i
     2) npm run start
