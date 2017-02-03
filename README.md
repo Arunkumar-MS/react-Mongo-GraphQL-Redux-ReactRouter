@@ -4,9 +4,9 @@
 
 ###For Live GraphQL Demo please visite : [Click me](https://node-mongo-graphql.herokuapp.com/api)
 
-Simple GraphQL
+<i>Simple GraphQL</i>
 
-query { Products { id, title } }
+`query { Products { id, title } }`
 
 ## Steps to Runing locally
     1) npm i
