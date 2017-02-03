@@ -5,6 +5,10 @@
     text-decoration: underline;
     font-family: cursive;
 }
+.product-image img{
+  height: 470px;
+  width: 486px;
+}
 .main-table-list{
   margin-top:50px;
 }
