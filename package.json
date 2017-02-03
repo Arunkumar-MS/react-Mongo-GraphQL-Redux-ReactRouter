@@ -8,6 +8,9 @@
     "start": "webpack && NODE_ENV=production  node .",
     "dev": "nodemon ."
   },
+    "engines": {
+    "node": "7.4.0"
+  },
   "keywords": [
     "React",
     "mangodb",
