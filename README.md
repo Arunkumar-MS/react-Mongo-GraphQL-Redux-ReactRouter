@@ -4,7 +4,7 @@
 
 ###For Live GraphQL Demo please visite : [Click me](https://node-mongo-graphql.herokuapp.com/api)
 
-<i>Simple GraphQL</i>
+<i>Simple GraphQL query</i>
 
 `query { Products { id, title } }`
 
