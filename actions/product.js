@@ -17,14 +17,13 @@ UPDATING,
 GET_PRODUCT_BY_ID
 } from '../constents';
 export function updateProduct(args, dispatch){
-  dispatch({type: ADD_NEW_PRODUCT, value: false});
   return api(editProduct, args).then(results => {
     if(results.errors){
         return;
     }
     dispatch({
-          type: GET_PRODUCT,
-          value: results.data.edit
+          type: EDIT_PRODUCTS,
+          value: results.data.save
       });
     dispatch({type: ADD_NEW_PRODUCT, value: true});
 

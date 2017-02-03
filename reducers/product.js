@@ -36,6 +36,8 @@ export default function product(state = initialState, action) {
             return ({...state, product: action.value[0]});
         case RESET_FlAGS:
             return ({...state, added: false });
+        case EDIT_PRODUCTS:
+            return ({...state, product: action.value});
         default:
             return state
     }
