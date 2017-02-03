@@ -6,12 +6,12 @@ app.set('views', __dirname);
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname));
-app.listen(8080, (err) => {
+app.listen((process.env.PORT || 4000), (err) => {
     if (err) {
         console.error(err)
         return
     }
-    console.log(`Server is now running on localhost: 8080`)
+    console.log(`Server is now running on localhost: ${process.env.PORT || 4000}`)
 })
 
 app.get('/', function(req, res) {
