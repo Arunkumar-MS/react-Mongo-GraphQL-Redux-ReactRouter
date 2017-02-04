@@ -1,5 +1,25 @@
 # All great things combined together
 
+
+<i>Back End:<i>
+   * Data storage : MongoDB
+   * Server Side  : NodeJS
+    
+<i>Client and Server communication </i>
+   * GraphQL
+
+<i>Client Side:</i>
+   * View        : ReactJS
+   * Routing     : React-Router
+   * Data Flow   : ReduxJS
+    
+<i>Bundler:<i>
+   * Webpack
+    
+<i>Java Script Standard:<i>
+   * ES6
+     
+
 ###For Live website Demo please visite : [Click me](https://node-mongo-graphql.herokuapp.com/)
 
 ###For Live GraphQL Demo please visite : [Click me](https://node-mongo-graphql.herokuapp.com/api)
