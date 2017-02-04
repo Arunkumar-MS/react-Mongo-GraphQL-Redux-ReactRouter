@@ -1,8 +1,10 @@
 var path = require("path");
+require("babel-polyfill");
 var ROOT_PATH = path.resolve(__dirname);
 module.exports = {
     entry: {
         app: [
+            'babel-polyfill',
             './components/index.js'
         ]
     },
