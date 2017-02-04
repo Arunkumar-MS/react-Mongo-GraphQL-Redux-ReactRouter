@@ -19,6 +19,8 @@
 <i>Java Script Standard:<i>
    * ES6
      
+<i> Hosting </i>
+    * Heroku
 
 ###For Live website Demo please visite : [Click me](https://node-mongo-graphql.herokuapp.com/)
 
