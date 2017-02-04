@@ -6,7 +6,7 @@ module.exports = {
             './components/index.js'
         ]
     },
-    devtool: 'eval',
+    devtool: 'cheap-module-source-map',
     output: {
         path: ROOT_PATH,
         filename: 'bundle.js'
