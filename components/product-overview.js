@@ -14,11 +14,18 @@ class ProductOverview extends Component {
     getProductById(args, this.props.dispatch);
 
   }
+  componentWillReceiveProps(nextProps) {
+    document.body.classList.toggle('overlay', nextProps.isLoading)
+  }
+  componentWillUnmount() {
+  document.body.classList.remove('overlay')
+  }
   deleteItem = (id) =>{
     deleteProduct({id}, this.props.dispatch);
     browserHistory.goBack();
   };
   render() {
+    const cssClassName = this.props.isLoading ? 'loader' : null;
     const product = this.props.product;
     return(
       <div className="main-product-overview-wrapper">
@@ -42,13 +49,15 @@ class ProductOverview extends Component {
             <Link className="btn btn-primary" to="/"> Back to Home </Link>
           </div>
         </div>
+        <div className={cssClassName}></div>
       </div>
     );
   }
 }
 
 const mapStateToProps = state => ({
-  product: state.product.product
+  product: state.product.product,
+  isLoading: state.product.isLoading
 });
 
 const mapDispatchToProps = dispatch => ({

@@ -31,6 +31,10 @@ export function updateProduct(args, dispatch){
 }
 
 export function getProductById(args, dispatch){
+  dispatch({
+    type: UPDATING,
+    value: true
+  });
   return api(productsById, args).then(results => {
     if(results.errors){
         return;
@@ -38,6 +42,10 @@ export function getProductById(args, dispatch){
     dispatch({
           type: GET_PRODUCT_BY_ID,
           value: results.data.GetProductsById
+      });
+      dispatch({
+        type: UPDATING,
+        value: false
       });
 
   });
