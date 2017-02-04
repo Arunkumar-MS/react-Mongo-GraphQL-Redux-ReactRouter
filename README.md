@@ -2,7 +2,7 @@
 
 
 <i>Back End:<i>
-   * Data storage : MongoDB
+   * Data storage : MongoDB (mlab)
    * Server Side  : NodeJS
     
 <i>Client and Server communication </i>
