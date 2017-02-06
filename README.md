@@ -31,8 +31,8 @@
 `query { Products { id, title } }`
 
 ## Steps to Runing locally
-    1) npm i
-    2) npm run start
+    1) `npm i` or `yarn`
+    2) `npm run start` or `yarn run start`
     3) goto http://localhost:4000/
     
 
