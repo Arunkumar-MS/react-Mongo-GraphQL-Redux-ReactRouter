@@ -1,1 +1,1 @@
-web: NODE_ENV=production webpack -p &&  node .
+web: NODE_ENV=production node .

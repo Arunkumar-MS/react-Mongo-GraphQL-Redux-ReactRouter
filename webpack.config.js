@@ -11,7 +11,7 @@ module.exports = {
     devtool: 'cheap-module-source-map',
     output: {
         path: ROOT_PATH,
-        filename: 'bundle.js'
+        filename: 'dest/bundle.js'
     },
     module: {
         loaders: [{
@@ -32,4 +32,3 @@ module.exports = {
     tls: 'empty'
   },
 }
-
