@@ -17,7 +17,7 @@ UPDATING,
 GET_PRODUCT_BY_ID
 } from '../constents';
 export function updateProduct(args, dispatch){
-  return api(editProduct, args).then(results => {
+  return api.fetchResource(editProduct, args).then(results => {
     if(results.errors){
         return;
     }
@@ -35,7 +35,7 @@ export function getProductById(args, dispatch){
     type: UPDATING,
     value: true
   });
-  return api(productsById, args).then(results => {
+  return api.fetchResource(productsById, args).then(results => {
     if(results.errors){
         return;
     }
@@ -55,7 +55,7 @@ export function addNewProduct(args, dispatch) {
         type: ADD_NEW_PRODUCT,
         value: false
     });
-  return api(addProduct, args).then(results => {
+  return api.fetchResource(addProduct, args).then(results => {
 
     if(results.errors){
         return;
@@ -74,7 +74,7 @@ export function getProduct(dispatch) {
     type: UPDATING,
     value: true
   });
-    return api(getProducts).then(results => {
+    return api.fetchResource(getProducts).then(results => {
       if(results.errors){
         dispatch({
               type: 'nextSlot'
@@ -94,7 +94,7 @@ export function getProduct(dispatch) {
 };
 
 export function deleteProduct(args, dispatch) {
-  return api(deleteProducts, args ).then(results => {
+  return api.fetchResource(deleteProducts, args ).then(results => {
     if(results.errors){
       dispatch({
             type: 'nextSlot',
