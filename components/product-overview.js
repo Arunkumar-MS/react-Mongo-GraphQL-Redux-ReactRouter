@@ -2,6 +2,9 @@ import React, { Component, PropTypes } from 'react';
 import { Link , browserHistory} from 'react-router';
 import { connect } from 'react-redux';
 import {
+    DisableDelete
+} from '../config';
+import {
     deleteProduct,
     getProductById
 } from '../actions/product';
@@ -20,7 +23,7 @@ class ProductOverview extends Component {
   componentWillUnmount() {
   document.body.classList.remove('overlay')
   }
-  deleteItem = (id) =>{
+  deleteItem = (id) => {
     deleteProduct({id}, this.props.dispatch);
     browserHistory.goBack();
   };
@@ -45,7 +48,7 @@ class ProductOverview extends Component {
 
           <div className="overview-submit-ctl">
             <Link to={`/edit/${this.props.product.id}`} className="btn btn-primary">Edit</Link>
-            <button onClick={() => this.deleteItem(this.props.params.id)} type="button" className="btn btn-primary">Delete</button>
+            <button onClick={() => this.deleteItem(this.props.params.id)} disabled={ DisableDelete } type="button" className="btn btn-primary">Delete</button>
             <Link className="btn btn-primary" to="/"> Back to Home </Link>
           </div>
         </div>

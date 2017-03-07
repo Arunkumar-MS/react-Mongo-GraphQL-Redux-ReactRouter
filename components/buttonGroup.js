@@ -2,6 +2,9 @@ import React, { Component, PropTypes } from 'react';
 import { Link } from 'react-router';
 import { connect } from 'react-redux';
 import {
+    DisableDelete
+} from '../config';
+import {
     deleteProduct,
     getProductById
 } from '../actions/product';
@@ -21,7 +24,7 @@ import {
       <div className="btn-group">
       <Link to={`/edit/${id}`} className="btn btn-primary">Edit</Link>
       <Link to={`/product-overview/${id}`} className="btn btn-primary">View</Link>
-      <button onClick={() => this.deleteItem(id)} type="button" className="btn btn-primary">Delete</button>
+      <button onClick={() => this.deleteItem(id)} disabled={ DisableDelete } type="button" className="btn btn-primary">Delete</button>
       </div>
     );
   }
