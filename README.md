@@ -38,5 +38,6 @@
 
 
 Note: Make sure you have installed webpack globally or you can do it by just running 
-    `npm i -g webpack`
+    `npm i -g webpack`.
+    To enable delete button make sure you Edit to `/config/index.js ---> DisableDelete = false`<
       
