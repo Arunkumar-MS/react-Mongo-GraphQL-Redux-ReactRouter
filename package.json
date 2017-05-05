@@ -32,6 +32,7 @@
     "graphql": "^0.9.1",
     "graphql-fetch": "^1.0.1",
     "json-loader": "^0.5.4",
+    "moesif-express": "^2.3.10",
     "mongoose": "^4.8.1",
     "path": "^0.12.7",
     "react": "^15.4.2",
