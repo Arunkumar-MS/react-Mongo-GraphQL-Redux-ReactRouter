@@ -6,8 +6,6 @@ if (navigator.serviceWorker) {
         .catch(function (e) {
             console.error(e);
         })
-} else {
-    console.log('Service Worker is not supported in this browser.');
 }
 
 self.addEventListener('activate', function (event) {
@@ -21,7 +19,7 @@ self.addEventListener('activate', function (event) {
         })
     )
 });
-var CACHE_VERSION = 'app-v1';
+var CACHE_VERSION = 'app-v2';
 var CACHE_FILES = [
     '/'
 ];
@@ -36,31 +34,21 @@ self.addEventListener('install', function (event) {
     );
 });
 
-self.addEventListener('fetch', function (event) {
-    event.respondWith(
-        caches.match(event.request).then(function(res){
-            if(res){
-                return res;
-            }
-            requestBackend(event);
-        })
-    )
-});
-
-function requestBackend(event){
-    var url = event.request.clone();
-    return fetch(url).then(function(res){
-        //if not a valid response send the error
-        if(!res || res.status !== 200 || res.type !== 'basic'){
-            return res;
-        }
-
-        var response = res.clone();
-
-        caches.open(CACHE_VERSION).then(function(cache){
-            cache.put(event.request, response);
+self.addEventListener('fetch', function(event) {
+  event.respondWith(caches.match(event.request).then(function(response) {
+    if (response !== undefined) {
+      return response;
+    } else {
+      return fetch(event.request).then(function (response) {
+        let responseClone = response.clone();
+        
+        caches.open(CACHE_VERSION).then(function (cache) {
+          cache.put(event.request, responseClone);
         });
-
-        return res;
-    })
-}
+        return response;
+      }).catch(function () {
+        return "sorry something went wrong";
+      });
+    }
+  }));
+});
