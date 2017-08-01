@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+   "bundlesize": [
+    {
+      "path": "./dest/bundle.js",
+      "maxSize": "350 Kb"
+    }
+  ],
   "scripts": {
     "build": "webpack",
     "start": "NODE_ENV=production webpack -p &&  node .",
-    "dev": "webpack && nodemon ."
+    "dev": "webpack && nodemon .",
+    "test": "bundlesize"
   },
   "engines": {
     "node": "7.4.0"
@@ -43,5 +50,8 @@
     "webpack": "^2.2.1"
   },
   "author": "Arunkumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bundlesize": "^0.13.2"
+  }
 }
