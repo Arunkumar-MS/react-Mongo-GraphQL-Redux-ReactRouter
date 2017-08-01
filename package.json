@@ -6,7 +6,7 @@
    "bundlesize": [
     {
       "path": "./dest/bundle.js",
-      "maxSize": "100 Kb"
+      "maxSize": "300 Kb"
     }
   ],
   "scripts": {
