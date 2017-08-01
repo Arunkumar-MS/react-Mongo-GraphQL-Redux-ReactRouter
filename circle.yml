@@ -1,3 +1,7 @@
 machine:
   node:
     version: 7.4.0
+    environment:
+          BUNDLESIZE_GITHUB_TOKEN: 1cf19859ea3704208070dc170805571af48a1b90
+
+
