@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "build": "webpack",
-    "start": "NODE_ENV=production webpack -p &&  pm2 start index.js -i 0",
+    "preinstall": "npm install pm2 -g",
+    "start": "NODE_ENV=production webpack -p && pm2 start index.js -i max --attach",
     "dev": "webpack && nodemon .",
     "test": "bundlesize"
   },
