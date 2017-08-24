@@ -1,6 +1,7 @@
 import express from 'express';
 import graphQLHTTP from 'express-graphql';
 import Schema from './schema';
+import './splunk';
 
 var app = express()
 app.set('views', __dirname);
