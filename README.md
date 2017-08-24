@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter.svg?style=shield&circle-token=b6389fead1f9c1382dccd43ded19e21948084080)](https://circleci.com/gh/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter)
+
 # All great things combined together
 
 
