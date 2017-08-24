@@ -3,7 +3,6 @@ require("babel-polyfill");
 const webpack= require('webpack');
 var ROOT_PATH = path.resolve(__dirname);
 const isLocal = process.env.NODE_ENV === 'local';
-console.log('............',process.env.NODE_ENV);
 
 module.exports = {
     entry: {
