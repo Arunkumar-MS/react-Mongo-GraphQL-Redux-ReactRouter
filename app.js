@@ -1,9 +1,14 @@
 import express from 'express';
 import graphQLHTTP from 'express-graphql';
 import Schema from './schema';
-import './splunk';
+import expressLogging from 'express-logging';
+import logger from 'logops';
+import { REDIS_URl } from './config';
+import redis from 'redis';
 
-var app = express()
+const app = express();
+const client = redis.createClient(REDIS_URl);
+app.use(expressLogging(logger));
 app.set('views', __dirname);
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
