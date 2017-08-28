@@ -1,8 +1,11 @@
 import express from 'express';
 import graphQLHTTP from 'express-graphql';
 import Schema from './schema';
+import expressLogging from 'express-logging';
+import logger from 'logops';
 
 var app = express()
+app.use(expressLogging(logger));
 app.set('views', __dirname);
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
