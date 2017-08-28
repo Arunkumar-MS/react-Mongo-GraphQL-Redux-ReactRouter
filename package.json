@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "bundlesize": [
+    {
+      "path": "./dest/bundle.js",
+      "maxSize": "300 Kb"
+    }
+  ],
   "scripts": {
     "build": "webpack",
-    "start": "NODE_ENV=production webpack -p &&  node .",
-    "dev": "webpack && nodemon ."
+    "preinstall": "npm install pm2 -g",
+    "start": "NODE_ENV=production webpack -p && pm2 start index.js -i max --attach",
+    "dev": "webpack && nodemon .",
+    "test": "bundlesize && perfbench"
   },
   "engines": {
-    "node": "7.4.0"
+    "node": "8.4.0"
   },
   "keywords": [
     "React",
@@ -32,8 +40,10 @@
     "graphql": "^0.9.1",
     "graphql-fetch": "^1.0.1",
     "json-loader": "^0.5.4",
+    "moesif-express": "^2.3.10",
     "mongoose": "^4.8.1",
     "path": "^0.12.7",
+    "perfbench": "^1.8.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
@@ -42,5 +52,8 @@
     "webpack": "^2.2.1"
   },
   "author": "Arunkumar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "bundlesize": "^0.13.2"
+  }
 }

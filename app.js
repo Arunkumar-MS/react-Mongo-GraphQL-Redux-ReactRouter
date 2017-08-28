@@ -1,6 +1,7 @@
 import express from 'express';
 import graphQLHTTP from 'express-graphql';
 import Schema from './schema';
+
 var app = express()
 app.set('views', __dirname);
 app.engine('html', require('ejs').renderFile);

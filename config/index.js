@@ -1,1 +1,3 @@
 export const DisableDelete = true;
+
+export const MOESIF ='eyJhcHAiOiI5MzoxMyIsInZlciI6IjIuMCIsIm9yZyI6IjIwNzoyIiwiaWF0IjoxNDkzOTQyNDAwfQ.U3XdKdyAC2xWuDxniRGHcR4X8GtV4WebOWqjrtYuACM';
