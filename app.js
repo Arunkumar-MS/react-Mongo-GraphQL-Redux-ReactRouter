@@ -18,7 +18,7 @@ app.listen((process.env.PORT || 4000), (err) => {
     console.log(`Server is now running on localhost: ${process.env.PORT || 4000}`)
 })
 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
     res.render('index.html');
 });
 app.use('/api', graphQLHTTP({
