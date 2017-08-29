@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 import { getProduct } from '../actions/product';
 import List from './list';
 
-class App extends Component {
+export class App extends Component {
 
   componentDidMount() {
     getProduct(this.props.dispatch);

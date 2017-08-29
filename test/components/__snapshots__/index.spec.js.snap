@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render App Component 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="main-table-list"
+>
+    <Link
+        className="add-new btn btn-primary"
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/add"
+    >
+        Add new Product &gt;
+    </Link>
+    <List
+        products={
+            Array [
+                Object {
+                  "id": "5945ca3cfb7fe7000460e0da",
+                  "price": 12,
+                  "quantity": 3,
+                  "title": "New opne",
+                },
+                Object {
+                  "id": "589a01417fbb7f00111d0892",
+                  "price": 100,
+                  "quantity": 5000,
+                  "title": "Broccoli",
+                },
+                Object {
+                  "id": "58bef54b4a4b4e0004112d7c",
+                  "price": 1000,
+                  "quantity": 20,
+                  "title": "Wine",
+                },
+                Object {
+                  "id": "58bef5c44a4b4e0004112d7d",
+                  "price": 2000,
+                  "quantity": 200,
+                  "title": "Military backpack",
+                },
+                Object {
+                  "id": "5941942400dc660004acd152",
+                  "price": 121,
+                  "quantity": 123123,
+                  "title": "Product Title",
+                },
+              ]
+        }
+    />
+    <div
+        className={null}
+    />
+</div>,
+  "nodes": Array [
+    <div
+      className="main-table-list"
+>
+      <Link
+            className="add-new btn btn-primary"
+            onlyActiveOnIndex={false}
+            style={Object {}}
+            to="/add"
+      >
+            Add new Product &gt;
+      </Link>
+      <List
+            products={
+                  Array [
+                        Object {
+                          "id": "5945ca3cfb7fe7000460e0da",
+                          "price": 12,
+                          "quantity": 3,
+                          "title": "New opne",
+                        },
+                        Object {
+                          "id": "589a01417fbb7f00111d0892",
+                          "price": 100,
+                          "quantity": 5000,
+                          "title": "Broccoli",
+                        },
+                        Object {
+                          "id": "58bef54b4a4b4e0004112d7c",
+                          "price": 1000,
+                          "quantity": 20,
+                          "title": "Wine",
+                        },
+                        Object {
+                          "id": "58bef5c44a4b4e0004112d7d",
+                          "price": 2000,
+                          "quantity": 200,
+                          "title": "Military backpack",
+                        },
+                        Object {
+                          "id": "5941942400dc660004acd152",
+                          "price": 121,
+                          "quantity": 123123,
+                          "title": "Product Title",
+                        },
+                      ]
+            }
+      />
+      <div
+            className={null}
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <App
+        products={
+                Array [
+                        Object {
+                          "id": "5945ca3cfb7fe7000460e0da",
+                          "price": 12,
+                          "quantity": 3,
+                          "title": "New opne",
+                        },
+                        Object {
+                          "id": "589a01417fbb7f00111d0892",
+                          "price": 100,
+                          "quantity": 5000,
+                          "title": "Broccoli",
+                        },
+                        Object {
+                          "id": "58bef54b4a4b4e0004112d7c",
+                          "price": 1000,
+                          "quantity": 20,
+                          "title": "Wine",
+                        },
+                        Object {
+                          "id": "58bef5c44a4b4e0004112d7d",
+                          "price": 2000,
+                          "quantity": 200,
+                          "title": "Military backpack",
+                        },
+                        Object {
+                          "id": "5941942400dc660004acd152",
+                          "price": 121,
+                          "quantity": 123123,
+                          "title": "Product Title",
+                        },
+                      ]
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": App {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "products": Array [
+            Object {
+              "id": "5945ca3cfb7fe7000460e0da",
+              "price": 12,
+              "quantity": 3,
+              "title": "New opne",
+            },
+            Object {
+              "id": "589a01417fbb7f00111d0892",
+              "price": 100,
+              "quantity": 5000,
+              "title": "Broccoli",
+            },
+            Object {
+              "id": "58bef54b4a4b4e0004112d7c",
+              "price": 1000,
+              "quantity": 20,
+              "title": "Wine",
+            },
+            Object {
+              "id": "58bef5c44a4b4e0004112d7d",
+              "price": 2000,
+              "quantity": 200,
+              "title": "Military backpack",
+            },
+            Object {
+              "id": "5941942400dc660004acd152",
+              "price": 121,
+              "quantity": 123123,
+              "title": "Product Title",
+            },
+          ],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="main-table-list"
+>
+          <Link
+                    className="add-new btn btn-primary"
+                    onlyActiveOnIndex={false}
+                    style={Object {}}
+                    to="/add"
+          >
+                    Add new Product &gt;
+          </Link>
+          <List
+                    products={
+                              Array [
+                                        Object {
+                                          "id": "5945ca3cfb7fe7000460e0da",
+                                          "price": 12,
+                                          "quantity": 3,
+                                          "title": "New opne",
+                                        },
+                                        Object {
+                                          "id": "589a01417fbb7f00111d0892",
+                                          "price": 100,
+                                          "quantity": 5000,
+                                          "title": "Broccoli",
+                                        },
+                                        Object {
+                                          "id": "58bef54b4a4b4e0004112d7c",
+                                          "price": 1000,
+                                          "quantity": 20,
+                                          "title": "Wine",
+                                        },
+                                        Object {
+                                          "id": "58bef5c44a4b4e0004112d7d",
+                                          "price": 2000,
+                                          "quantity": 200,
+                                          "title": "Military backpack",
+                                        },
+                                        Object {
+                                          "id": "5941942400dc660004acd152",
+                                          "price": 121,
+                                          "quantity": 123123,
+                                          "title": "Product Title",
+                                        },
+                                      ]
+                    }
+          />
+          <div
+                    className={null}
+          />
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="main-table-list"
+>
+          <Link
+                    className="add-new btn btn-primary"
+                    onlyActiveOnIndex={false}
+                    style={Object {}}
+                    to="/add"
+          >
+                    Add new Product &gt;
+          </Link>
+          <List
+                    products={
+                              Array [
+                                        Object {
+                                          "id": "5945ca3cfb7fe7000460e0da",
+                                          "price": 12,
+                                          "quantity": 3,
+                                          "title": "New opne",
+                                        },
+                                        Object {
+                                          "id": "589a01417fbb7f00111d0892",
+                                          "price": 100,
+                                          "quantity": 5000,
+                                          "title": "Broccoli",
+                                        },
+                                        Object {
+                                          "id": "58bef54b4a4b4e0004112d7c",
+                                          "price": 1000,
+                                          "quantity": 20,
+                                          "title": "Wine",
+                                        },
+                                        Object {
+                                          "id": "58bef5c44a4b4e0004112d7d",
+                                          "price": 2000,
+                                          "quantity": 200,
+                                          "title": "Military backpack",
+                                        },
+                                        Object {
+                                          "id": "5941942400dc660004acd152",
+                                          "price": 121,
+                                          "quantity": 123123,
+                                          "title": "Product Title",
+                                        },
+                                      ]
+                    }
+          />
+          <div
+                    className={null}
+          />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <App
+    products={
+        Array [
+            Object {
+              "id": "5945ca3cfb7fe7000460e0da",
+              "price": 12,
+              "quantity": 3,
+              "title": "New opne",
+            },
+            Object {
+              "id": "589a01417fbb7f00111d0892",
+              "price": 100,
+              "quantity": 5000,
+              "title": "Broccoli",
+            },
+            Object {
+              "id": "58bef54b4a4b4e0004112d7c",
+              "price": 1000,
+              "quantity": 20,
+              "title": "Wine",
+            },
+            Object {
+              "id": "58bef5c44a4b4e0004112d7d",
+              "price": 2000,
+              "quantity": 200,
+              "title": "Military backpack",
+            },
+            Object {
+              "id": "5941942400dc660004acd152",
+              "price": 121,
+              "quantity": 123123,
+              "title": "Product Title",
+            },
+          ]
+    }
+/>,
+}
+`;
