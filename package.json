@@ -12,7 +12,7 @@
   "scripts": {
     "build": "webpack -p",
     "preinstall": "npm install pm2 webdriverio -g",
-    "start": "node index.js",
+    "start": "node NODE_ENV=dev index.js",
     "dev": "webpack && nodemon .",
     "wdio": "wdio test/uiautomation/wdio.conf.js",
     "pretest": " npm run build && npm run start &",
