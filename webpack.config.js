@@ -2,7 +2,7 @@ var path = require("path");
 require("babel-polyfill");
 const webpack= require('webpack');
 var ROOT_PATH = path.resolve(__dirname);
-const isLocal = process.env.NODE_ENV === 'local';
+const isLocal = process.env.NODE_ENV === 'dev';
 
 module.exports = {
     entry: {

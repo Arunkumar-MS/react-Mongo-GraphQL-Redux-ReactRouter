@@ -2,3 +2,5 @@ node_modules
 live.js
 *.log*
 jest_0
+.DS_Store
+errorShots

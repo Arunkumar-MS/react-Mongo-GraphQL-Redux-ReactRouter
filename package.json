@@ -10,11 +10,13 @@
     }
   ],
   "scripts": {
-    "build": "webpack",
-    "preinstall": "npm install pm2 -g",
-    "start": "NODE_ENV=production webpack -p && pm2 start index.js -i max --attach",
+    "build": "webpack -p",
+    "preinstall": "npm install pm2 webdriverio -g",
+    "start": "node NODE_ENV=dev index.js",
     "dev": "webpack && nodemon .",
-    "test": "bundlesize && perfbench && jest",
+    "wdio": "wdio test/uiautomation/wdio.conf.js",
+    "pretest": " npm run build && npm run start &",
+    "test": "bundlesize && perfbench && jest && npm run wdio",
     "test:client": "jest"
   },
   "jest": {
@@ -29,7 +31,11 @@
     "React",
     "mangodb",
     "graphql",
-    "redux"
+    "redux",
+    "selenium",
+    "webdriverio",
+    "mocha",
+    "chai"
   ],
   "dependencies": {
     "babel-loader": "^6.4.1",
@@ -64,10 +70,16 @@
   "devDependencies": {
     "babel-jest": "^20.0.3",
     "bundlesize": "^0.13.2",
+    "chai": "^4.1.1",
     "enzyme": "^2.9.1",
     "jest": "^20.0.4",
     "jest-cli": "^20.0.4",
     "react-test-renderer": "^15.6.1",
-    "regenerator-runtime": "^0.11.0"
+    "regenerator-runtime": "^0.11.0",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.2",
+    "webdriverio": "^4.8.0"
   }
 }
