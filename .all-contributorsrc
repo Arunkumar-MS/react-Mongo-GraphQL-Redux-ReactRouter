@@ -26,6 +26,17 @@
         "doc",
         "test"
       ]
+    },
+    {
+      "login": "Arunkumar-MS",
+      "name": "Arunkumar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12065668?v=4",
+      "profile": "https://github.com/Arunkumar-MS",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,
