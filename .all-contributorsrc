@@ -15,6 +15,17 @@
         "doc",
         "test"
       ]
+    },
+    {
+      "login": "ragu-ravi",
+      "name": "Ragu",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/15092249?v=4",
+      "profile": "https://github.com/ragu-ravi",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
     }
   ],
   "contributorsPerLine": 7,

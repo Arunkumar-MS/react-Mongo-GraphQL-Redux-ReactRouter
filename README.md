@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter.svg?style=shield&circle-token=b6389fead1f9c1382dccd43ded19e21948084080)](https://circleci.com/gh/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # All great things combined together
@@ -57,6 +57,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/rakesh-nayak"><img src="https://avatars3.githubusercontent.com/u/11978348?v=4" width="100px;" alt=""/><br /><sub><b>Rakesh Nayak</b></sub></a><br /><a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=rakesh-nayak" title="Code">💻</a> <a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=rakesh-nayak" title="Documentation">📖</a> <a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=rakesh-nayak" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/ragu-ravi"><img src="https://avatars1.githubusercontent.com/u/15092249?v=4" width="100px;" alt=""/><br /><sub><b>Ragu</b></sub></a><br /><a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=ragu-ravi" title="Code">💻</a> <a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=ragu-ravi" title="Documentation">📖</a> <a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=ragu-ravi" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
