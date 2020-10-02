@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "rakesh-nayak",
+      "name": "Rakesh Nayak",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/11978348?v=4",
+      "profile": "https://github.com/rakesh-nayak",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "react-Mongo-GraphQL-Redux-ReactRouter",
+  "projectOwner": "Arunkumar-MS",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

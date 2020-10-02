@@ -1,4 +1,7 @@
 [![CircleCI](https://circleci.com/gh/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter.svg?style=shield&circle-token=b6389fead1f9c1382dccd43ded19e21948084080)](https://circleci.com/gh/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # All great things combined together
 
@@ -43,3 +46,22 @@ Note: Make sure you have installed webpack globally or you can do it by just run
     `npm i -g webpack`.
    <br/> To enable delete button make sure you Edit `/config/index.js ---> DisableDelete = false`
       
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/rakesh-nayak"><img src="https://avatars3.githubusercontent.com/u/11978348?v=4" width="100px;" alt=""/><br /><sub><b>Rakesh Nayak</b></sub></a><br /><a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=rakesh-nayak" title="Code">💻</a> <a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=rakesh-nayak" title="Documentation">📖</a> <a href="https://github.com/Arunkumar-MS/react-Mongo-GraphQL-Redux-ReactRouter/commits?author=rakesh-nayak" title="Tests">⚠️</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
