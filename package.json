@@ -48,7 +48,7 @@
     "graphql-fetch": "^1.0.1",
     "json-loader": "^0.5.7",
     "logops": "^2.1.0",
-    "mongoose": "^4.11.9",
+    "mongoose": "^5.7.5",
     "path": "^0.12.7",
     "perfbench": "^1.8.1",
     "prop-types": "^15.5.10",
