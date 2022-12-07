@@ -41,7 +41,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
     "ejs": "^2.5.7",
-    "express": "^4.15.4",
+    "express": "^4.17.3",
     "express-graphql": "^0.6.7",
     "express-logging": "^1.1.1",
     "graphql": "^0.9.6",
